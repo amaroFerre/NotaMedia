@@ -51,6 +51,12 @@ public class NotaMedia {
     
     notaMedia = (nota1 + nota2 + nota3) / 3;
     
+    // Imprimo el resultado
+    System.out.print("La nota media es: " );
+    
+    // Imprime solo los dos primeros número decimales
+    System.out.printf("%.2f\n", notaMedia);
+    
     
     
     
