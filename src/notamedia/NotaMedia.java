@@ -33,6 +33,22 @@ public class NotaMedia {
     
     double notaMedia;
     
+    // Pido las notas por teclado
+    
+    System.out.println("Introduce la primera nota: ");
+    
+    nota1 = entrada.nextDouble();
+    
+    System.out.println("Introduce la segunda nota: ");
+    
+    nota2 = entrada.nextDouble();
+    
+    System.out.println("Introduce la tercera nota: ");
+    
+    nota3 = entrada.nextDouble();
+    
+    
+    
     
     
     
