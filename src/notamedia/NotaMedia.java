@@ -47,6 +47,10 @@ public class NotaMedia {
     
     nota3 = entrada.nextDouble();
     
+    // Calculo la nota media
+    
+    notaMedia = (nota1 + nota2 + nota3) / 3;
+    
     
     
     
