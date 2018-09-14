@@ -27,6 +27,14 @@ public class NotaMedia {
     
     Scanner entrada = new Scanner(System.in);
     
+    // Creo cuatro variables de tipo double
+    
+    double nota1, nota2, nota3;
+    
+    double notaMedia;
+    
+    
+    
     
   }
   
