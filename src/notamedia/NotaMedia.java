@@ -5,6 +5,10 @@
  */
 package notamedia;
 
+// Importo el paquete java.util para poder utilizar la clase Scanner
+
+import java.util.*;
+
 /**
  *
  * @author Amarico
@@ -18,6 +22,8 @@ public class NotaMedia {
     // TODO code application logic here
     
     //Realiza un programa que calcule la media de tres notas
+    
+    
     
     
   }
