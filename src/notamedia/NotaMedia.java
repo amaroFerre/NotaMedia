@@ -50,6 +50,9 @@ public class NotaMedia {
 
     // Imprime solo los dos primeros número decimales
     System.out.printf("%.2f\n", notaMedia);
+    
+    // Amplía el programa anterior para que diga la nota del boletín (insuficiente,
+    //suficiente, bien, notable o sobresaliente). 
 
   }
 
