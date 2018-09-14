@@ -23,7 +23,9 @@ public class NotaMedia {
     
     //Realiza un programa que calcule la media de tres notas
     
+    // Creo un objeto de la clase Scanner
     
+    Scanner entrada = new Scanner(System.in);
     
     
   }
