@@ -50,9 +50,31 @@ public class NotaMedia {
 
     // Imprime solo los dos primeros número decimales
     System.out.printf("%.2f\n", notaMedia);
-    
+
     // Amplía el programa anterior para que diga la nota del boletín (insuficiente,
     //suficiente, bien, notable o sobresaliente). 
+    if ((notaMedia >= 0) && (notaMedia <= 4.9)) {
+
+      System.out.println("Los siento con la nota " + notaMedia + " tienes un INSUFICIENTE");
+
+    } else if ((notaMedia >= 5) && (notaMedia <= 5.9)) {
+
+      System.out.println("Seguro que te puedes esforzar un poco más, con la nota,  " + notaMedia + " tienes SUFICIENTE");
+
+    } else if ((notaMedia >= 6) && (notaMedia <= 6.9)) {
+
+      System.out.println("Vas por el buen camino con un " + notaMedia + "  tienes un BIEN");
+
+    } else if ((notaMedia >= 7) && (notaMedia <= 8.9)) {
+
+      System.out.println("Con la nota " + notaMedia + " tines un NOTABLE");
+
+    } else if ((notaMedia >= 9) && (notaMedia <= 10)) {
+
+      System.out.println("TIENES UN SOBRESALIENTE");
+    } else {
+      System.out.println("LO SIENTO NO ES UNA NOTA CORRECTA");
+    }
 
   }
 
